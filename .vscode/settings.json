@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "editor/": true,
+        "node_modules/": true,
+        "original/": true,
+        "vendor/": true,
+        "composer.lock": true,
+        "package-lock.json": true
+    }
+}

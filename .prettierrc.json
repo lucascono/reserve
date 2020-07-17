@@ -1,0 +1,42 @@
+{
+    "endOfLine": "lf",
+    "printWidth": 80,
+    "singleQuote": false,
+    "tabWidth": 4,
+    "useTabs": false,
+    "overrides": [
+        {
+            "files": "artisan",
+            "options": {
+                "parser": "php",
+                "endOfLine": "lf",
+                "printWidth": 80,
+                "singleQuote": false,
+                "tabWidth": 4,
+                "useTabs": false
+            }
+        },
+        {
+            "files": "site.webmanifest",
+            "options": {
+                "parser": "json",
+                "endOfLine": "lf",
+                "printWidth": 80,
+                "singleQuote": false,
+                "tabWidth": 4,
+                "useTabs": false
+            }
+        },
+        {
+            "files": "*.js",
+            "options": {
+                "parser": "babel-flow",
+                "endOfLine": "lf",
+                "printWidth": 80,
+                "singleQuote": false,
+                "tabWidth": 4,
+                "useTabs": false
+            }
+        }
+    ]
+}

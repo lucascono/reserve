@@ -1,0 +1,27 @@
+{
+    "name": "reserve",
+    "private": true,
+    "license": "CC-BY-NC-ND-4.0",
+    "author": "Lucas Banegas <lucasconobanegas@gmail.com>",
+    "homepage": "https://github.com/lucascono/reserve#readme",
+    "repository": "git+https://github.com/lucascono/reserve.git",
+    "bugs": "https://github.com/lucascono/reserve/issues",
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.14.2",
+        "eclint": "^2.8.1",
+        "eslint": "^7.4.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-config-standard": "^14.1.1",
+        "eslint-plugin-import": "^2.22.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "prettier": "^2.0.5",
+        "stylelint": "^13.6.1",
+        "stylelint-config-prettier": "^8.0.2",
+        "stylelint-config-recommended-scss": "^4.2.0",
+        "stylelint-config-standard": "^20.0.0",
+        "stylelint-order": "^4.1.0",
+        "stylelint-scss": "^3.18.0"
+    }
+}
