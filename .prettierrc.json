@@ -10,7 +10,7 @@
             "options": {
                 "parser": "php",
                 "endOfLine": "lf",
-                "printWidth": 80,
+                "printWidth": 120,
                 "singleQuote": false,
                 "tabWidth": 4,
                 "useTabs": false
@@ -28,11 +28,11 @@
             }
         },
         {
-            "files": "*.js",
+            "files": "*.php",
             "options": {
-                "parser": "babel-flow",
+                "parser": "php",
                 "endOfLine": "lf",
-                "printWidth": 80,
+                "printWidth": 120,
                 "singleQuote": false,
                 "tabWidth": 4,
                 "useTabs": false

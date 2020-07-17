@@ -1,7 +1,7 @@
 # prettierignore
 
-**/bower_components/**
-**/node_modules/**
-**/public/**
-**/vendor/**
-**/*.min.*
+bower_components/**
+node_modules/**
+public/assets/**
+vendor/**
+*.min.*
