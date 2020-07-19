@@ -49,4 +49,26 @@ class Handler extends ExceptionHandler
     {
         return parent::render($request, $exception);
     }
+
+    /**
+     * Convert the given exception to an array.
+     *
+     * @param  \Throwable  $e
+     * @return array
+     */
+    protected function convertExceptionToArray(Throwable $e)
+    {
+        if (config('app.debug')) {
+            return parent::convertExceptionToArray($e);
+        }
+
+        $codes = config('http.codes');
+        $error = 500;
+
+        if ($this->isHttpException($e) && array_key_exists($e->getStatusCode(), $codes)) {
+            $error = $e->getStatusCode();
+        }
+
+        return ['error' => $error, 'message' => $codes[$error]];
+    }
 }

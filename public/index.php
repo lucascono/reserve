@@ -1,6 +1,23 @@
 <?php
 
 /**
+ * Define API domain.
+ */
+
+define('API_DOMAIN', 'api.reserve.com');
+define('AUTH_DOMAIN', 'auth.reserve.com');
+define('CDN_DOMAIN', 'cdn.reserve.com');
+define('WEB_DOMAIN', 'reserve.com');
+
+/**
+ * Force JSON responses in API.
+ */
+
+if ($_SERVER['HTTP_HOST'] === API_DOMAIN) {
+    $_SERVER['HTTP_ACCEPT'] = 'application/json';
+}
+
+/**
  * Laravel - A PHP Framework For Web Artisans
  *
  * @package Laravel
